@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint .",
+    "lint": "eslint . prettier --write .",
     "format": "prettier --write .",
     "prepare": "husky install"
   },
@@ -23,6 +23,7 @@
   },
   "devDependencies": {
     "eslint": "8.34.0",
+    "eslint-plugin-prettier": "4.2.1",
     "husky": "^8.0.3",
     "prettier": "2.8.4",
     "sass": "1.58.3"
